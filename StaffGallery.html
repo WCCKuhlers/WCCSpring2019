@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Staff Photos</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS.css">
+<div id="container">
+</head>
+<header>
+<img src="WCCLogoHorizontal.jpg" height="300" width="200" class="center">
+    <div class="image_block">Washington Street, Waterloo, IA 50702  &bull;  319-433-1800</div>
+</header><br><br>
+<style>
+nav {
+    background: #03ADDF;
+    width: 100%;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: #03ADDF;
+    }
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: #FFF;
+        text-decoration: none;
+    }
+nav ul li.parent1 { width: 19.91%;
+					text-align: center
+}	
+nav ul li.parent2 { width: 19.91%;
+					text-align: center
+}	
+	
+nav ul li.parent3 { width: 19.91%;
+					text-align: center
+}	    
+    
+nav ul li.parent4 { width: 19.91%;
+					text-align: center
+}	
+    
+nav ul li.soloparent { width: 19.91%;
+                       text-align: center
+}	
+/* Sub Menu */
+nav ul li.parent1 ul.child1 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent1:hover ul.child1 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
+}
+nav ul li.parent1 ul.child1 li {
+    width: 100%;
+    padding: 0;
+}
+nav ul li.parent1 ul.child1 li:hover {
+    background: #008FBA
+}
+nav ul li.parent1 ul.child1 li a {
+    display: block;
+}
+
+nav ul li.parent2 ul.child2 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent2:hover ul.child2 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
+}
+nav ul li.parent2 ul.child2 li {
+    width: 100%;
+    padding: 0;
+}
+nav ul li.parent2 ul.child2 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent2 ul.child2 li a {
+    display: block;
+}
+/*ALUMNI DROP DOWN*/
+/* Sub Menu */
+nav ul li.parent3 ul.child3 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent3:hover ul.child3 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%
+}
+nav ul li.parent3 ul.child3 li {
+    width: 100%;
+    padding: 0;
+}
+nav ul li.parent3 ul.child3 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent3 ul.child3 li a {
+    display: block;
+}
+/*PATHWAYS DROP DOWN*/
+/* Sub Menu */
+nav ul li.parent4 ul.child4 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent4:hover ul.child4 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
+}
+nav ul li.parent4 ul.child4 li {
+    width: 100%;
+    padding: 0;
+}
+nav ul li.parent4 ul.child4 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent4 ul.child4 li a {
+    display: block;
+}
+table, th, td {
+	border: 1px solid black;
+	background: #FFFFFF;
+border-collapse: collapse;
+	}
+    table {margin: auto;
+    border: 5px solid #000000;
+    width: 600px;}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<nav>
+    <ul>
+        <li class="parent1"><a href="#">Student</a>
+            <ul class="child1">
+                <li><a href="#">Stale Breads</a></li><br>
+                <li><a href="#">Peanuts</a></li><br>
+                <li><a href="#">Pepper</a></li><br>
+            </ul>
+        </li>
+        <li class="parent2"><a href="#">Calendar</a>
+          <ul class="child2">
+            <li> <a href="calendar.html">2018 Calendar</a></li><br>
+            <li> <a href="#">Is</a></li><br>
+            <li> <a href="#">Trash</a></li><br>
+          </ul>
+           <li class="parent3"><a href="#">Events</a>
+          <ul class="child3">
+            <li> <a href="#">This</a></li><br>
+            <li> <a href="#">Is</a></li><br>
+            <li> <a href="#">Trash</a></li><br>
+          </ul>
+            <li class="parent4"><a href="#">Staff</a>
+          <ul class="child4">
+            <li> <a href="staffinfo.html">Staff Emails</a></li><br>
+            <li> <a href="StaffGallery.html">Staff Pictures</a></li><br>
+            <li> <a href="#">Trash</a></li><br>
+          </ul>
+        <li class="soloparent"><a href="#"></a>___</li>
+
+    </ul>
+    </nav>
+	<body>
+<div class="main">
+
+<h1>Staff Photos</h1>
+<hr>
+
+<h2>WCC Coordinators</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="#" alt="Jeff Frost" style="width:100%">
+        <p>Jeff Frost</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="miehe.jpg" alt="Amy Miehe" style="width:100%">
+      <p>Amy Miehe</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="ulfers.jpg" alt="Jane Ulfers-Kemp" style="width:100%">
+    <p>Jane Ulfers-Kemp</p>
+    </div>
+  </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2>WCC Teachers</h2>
+
+         <div class="column">
+    <div class="content">
+      <img src="bass.jpg" alt="Samuel Bass" style="width:100%">
+      <p>Samuel Bass</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="beaufore.jpg" alt="Heather Beaufore" style="width:100%">
+      <p>Heather Beaufore</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="dunkerton.jpg" alt="Matthew Dunkerton" style="width:100%">
+      <p>Matthew Dunkerton</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="flint.jpg" alt="Aaisha Flint" style="width:100%">
+      <p>Aaisha Flint</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="frost.jpg" alt="Betty(jane) Frost" style="width:100%">
+      <p>Betty(jane) Frost</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="kern.jpg" alt="Todd Kern" style="width:100%">
+      <p>Todd Kern</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="kuhlers.jpg" alt="Kyle Kuhlers" style="width:100%">
+      <p>Kyle Kuhlers</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="laures.jpg" alt="Tom Laures" style="width:100%">
+      <p>Tom Laures</p>
+    </div>
+  </div>
+         <div class="column">
+    <div class="content">
+      <img src="lidtke.jpg" alt="Wayne Lidtke" style="width:100%">
+      <p>Wayne Lidtke</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="mingo.jpg" alt="Aunderia Mingo" style="width:100%">
+      <p>Aunderia Mingo</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="olofson.jpg" alt="Samra Olofson" style="width:100%">
+      <p>Samra Olofson</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="plagge.jpg" alt="Robert Plagge" style="width:100%">
+      <p>Robert Plagge</p>
+    </div>
+  </div> <div class="column">
+    <div class="content">
+      <img src="schares.jpg" alt="Jill Schares" style="width:100%">
+      <p>Jill Schares</p>
+    </div>
+  </div> 
+    </div>
+        </div>
+    </body>
+</html>
