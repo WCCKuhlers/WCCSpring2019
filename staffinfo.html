@@ -1,819 +1,285 @@
-Staff Info
-
 <!DOCTYPE html>
-
-
-
-
 <html lang="en">
-
-
 <head>
-
-
 <title>WCC Staff Emails</title>
-
-
 <meta charset="utf-8">
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <link rel="stylesheet" href="CSS.css">
-
-
 <div id="container">
-
-
 </head>
-
-
 <header>
-
-
-<a href="index.html"><img src="WCCLogoHorizontal.jpg" height="300" width="200" class="center"></a>
-
-
-   <div class="image_block">Washington Street, Waterloo, IA 50702  &bull;  319-433-1800</div>
-
-
+<img src="WCCLogoHorizontal.jpg" height="350" width="450" class="center">
+    <div class="image_block">Washington Street, Waterloo, IA 50702  &bull;  319-433-1800</div>
 </header><br><br>
-
-
 <style>
-
-
 nav {
-
-
-   background: #03ADDF;
-
-
-   width: 100%;
-
-
+    background: #03ADDF;
+    width: 100%;
 }
-
-
 nav ul {
-
-
-   padding: 0;
-
-
-   margin: 0;
-
-
+    padding: 0;
+    margin: 0;
 }
-
-
 nav ul li {
-
-
-   position: relative;
-
-
-   display: inline-block;
-
-
-   list-style-type: none;
-
-
-   margin: 0;
-
-
-   padding: 10px 0;
-
-
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
 }
-
-
-   nav ul li:hover {
-
-
-       background: #03ADDF;
-
-
-   }
-
-
+    nav ul li:hover {
+        background: #03ADDF;
+    }
 nav ul li a {
-
-
-   color: #FFF;
-
-
-   text-decoration: none;
-
-
-   padding: 12px;
-
-
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
 }
-
-
-   nav ul li a:hover {
-
-
-       color: #FFF;
-
-
-       text-decoration: none;
-
-
-   }
-
-
+    nav ul li a:hover {
+        color: #FFF;
+        text-decoration: none;
+    }
 nav ul li.parent1 { width: 19.91%;
-
-
 					text-align: center
-
-
 }	
-
-
 nav ul li.parent2 { width: 19.91%;
-
-
 					text-align: center
-
-
 }	
-
-
 	
-
-
 nav ul li.parent3 { width: 19.91%;
-
-
 					text-align: center
-
-
-}	   
-
-
-  
-
-
+}	    
+    
 nav ul li.parent4 { width: 19.91%;
-
-
 					text-align: center
-
-
 }	
-
-
-  
-
-
+    
 nav ul li.soloparent { width: 19.91%;
-
-
-                      text-align: center
-
-
+                       text-align: center
 }	
-
-
-/* Sub Menu */
-
 
 nav ul li.parent1 ul.child1 {
-
-
-   display: none; /* Hide Sub Menu */
-
-
+    display: none; 
 }
-
-
 nav ul li.parent1:hover ul.child1 {
-
-
-   display: block; /* Show Sub Menu on Hover */
-
-
-   position: absolute;
-
-
-   top: 38px;
-
-
-   background: #03ADDF;
-
-
-   width: 100%;
-
-
+    display: block; 
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
 }
-
-
 nav ul li.parent1 ul.child1 li {
-
-
-   width: 100%;
-
-
-   padding: 0;
-
-
+    width: 100%;
+    padding: 0;
 }
-
-
 nav ul li.parent1 ul.child1 li:hover {
-
-
-   background: #008FBA
-
-
+    background: #008FBA
 }
-
-
 nav ul li.parent1 ul.child1 li a {
-
-
-   display: block;
-
-
+    display: block;
 }
-
-
-/*CALENDAR DROP DOWN*/
-
-
-/* Sub Menu */
-
 
 nav ul li.parent2 ul.child2 {
-
-
-   display: none; /* Hide Sub Menu */
-
-
+    display: none; 
 }
-
-
 nav ul li.parent2:hover ul.child2 {
-
-
-   display: block; /* Show Sub Menu on Hover */
-
-
-   position: absolute;
-
-
-   top: 38px;
-
-
-   background: #03ADDF;
-
-
-   width: 100%;
-
-
+    display: block; 
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
 }
-
-
 nav ul li.parent2 ul.child2 li {
-
-
-   width: 100%;
-
-
-   padding: 0;
-
-
+    width: 100%;
+    padding: 0;
 }
-
-
 nav ul li.parent2 ul.child2 li:hover {
-
-
-   background: #008FBA;
-
-
+    background: #008FBA;
 }
-
-
 nav ul li.parent2 ul.child2 li a {
-
-
-   display: block;
-
-
+    display: block;
 }
-
-
-/*ALUMNI DROP DOWN*/
-
-
-/* Sub Menu */
-
 
 nav ul li.parent3 ul.child3 {
-
-
-   display: none; /* Hide Sub Menu */
-
-
+    display: none; 
 }
-
-
 nav ul li.parent3:hover ul.child3 {
-
-
-   display: block; /* Show Sub Menu on Hover */
-
-
-   position: absolute;
-
-
-   top: 38px;
-
-
-   background: #03ADDF;
-
-
-   width: 100%
-
-
+    display: block; 
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%
 }
-
-
 nav ul li.parent3 ul.child3 li {
-
-
-   width: 100%;
-
-
-   padding: 0;
-
-
+    width: 100%;
+    padding: 0;
 }
-
-
 nav ul li.parent3 ul.child3 li:hover {
-
-
-   background: #008FBA;
-
-
+    background: #008FBA;
 }
-
-
 nav ul li.parent3 ul.child3 li a {
-
-
-   display: block;
-
-
+    display: block;
 }
-
-
-/*PATHWAYS DROP DOWN*/
-
-
-/* Sub Menu */
-
 
 nav ul li.parent4 ul.child4 {
-
-
-   display: none; /* Hide Sub Menu */
-
-
+    display: none; 
 }
-
-
 nav ul li.parent4:hover ul.child4 {
-
-
-   display: block; /* Show Sub Menu on Hover */
-
-
-   position: absolute;
-
-
-   top: 38px;
-
-
-   background: #03ADDF;
-
-
-   width: 100%;
-
-
+    display: block; 
+    position: absolute;
+    top: 38px;
+    background: #03ADDF;
+    width: 100%;
 }
-
-
 nav ul li.parent4 ul.child4 li {
-
-
-   width: 100%;
-
-
-   padding: 0;
-
-
+    width: 100%;
+    padding: 0;
 }
-
-
 nav ul li.parent4 ul.child4 li:hover {
-
-
-   background: #008FBA;
-
-
+    background: #008FBA;
 }
-
-
 nav ul li.parent4 ul.child4 li a {
-
-
-   display: block;
-
-
+    display: block;
 }
-
-
 table, th, td {
-
-
 	border: 1px solid black;
-
-
 	background: #FFFFFF;
-
-
 border-collapse: collapse;
-
-
 	}
-
-
-   table {margin: auto;
-
-
-   border: 5px solid #000000;
-
-
-   width: 600px;}
-
-
-  
-
-
+    table {margin: auto;
+    border: 5px solid #000000;
+    width: 600px;}
+    
 </style>
-
-
 </head>
-
-
 <nav>
-
-
- <nav>
     <ul>
         <li class="parent1"><a href="#">Student</a>
             <ul class="child1">
-                <li><a href="#">Career Paths</a></li><br>
-                <li><a href="#">Scheule (Block Times)</a></li><br>
-                <li><a href="#">Sample Projects</a></li><br>
+                <li><a href="#">Stale Breads</a></li><br>
+                <li><a href="#">Peanuts</a></li><br>
+                <li><a href="#">Pepper</a></li><br>
             </ul>
         </li>
-        <li class="parent2"><a href="calender.html">Calender</a>
+        <li class="parent2"><a href="#">Calendar</a>
           <ul class="child2">
-          </ul>
-           <li class="parent3"><a href="#">Events</a>
-          <ul class="child3">
-            <li> <a href="#">Schedule Tours</a></li><br>
-            <li> <a href="#">STEM Events</a></li><br>
-            <li> <a href="#">Community Night</a></li><br>
-          </ul>
-         <li class="parent4"><a href="#">Staff</a>
-          <ul class="child4">
-            <li> <a href="staffinfo.html">Staff Information</a></li><br>
+            <li> <a href="calendar.html">2018 Calendar</a></li><br>
             <li> <a href="#">Is</a></li><br>
             <li> <a href="#">Trash</a></li><br>
           </ul>
-        <li class="soloparent"><a href="#">?</a></li>
+           <li class="parent3"><a href="#">Events</a>
+          <ul class="child3">
+            <li> <a href="#">This</a></li><br>
+            <li> <a href="#">Is</a></li><br>
+            <li> <a href="#">Trash</a></li><br>
+          </ul>
+            <li class="parent4"><a href="#">Staff</a>
+          <ul class="child4">
+            <li> <a href="staffinfo.html">Staff Emails</a></li><br>
+            <li> <a href="#">Is</a></li><br>
+            <li> <a href="#">Trash</a></li><br>
+          </ul>
+        <li class="soloparent"><a href="#"></a>___</li>
+
     </ul>
-</nav>
-
-      
-
-
-
-
-
-
-
-    </ul>
-
-
 	<body>
-
-
 	<table style="width:100%">
-
-
 	<tr>
-
-
 	   <th>WCC Coordinators</th>
-
-
 	   <th>Position</th>
-
-
 	   <th>Email</th>
-
-
 	</tr>
-
-
 	<tr>
-
-
 	   <td height="50">Frost, Jeff</td>
-
-
 	<td height="50">Director of Career and Technical Education</td>
-
-
 	   <td height="50">Frostj@waterlooscools.org</td>
-
-
 	   </tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Miehe, Amy </td>
-
-
 	   <td height="50">WCC Coordinator </td>
-
-
 	   <td height="50">Miehea2@waterlooschools.org</td>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Ulfers- Kemp, Jane </td>
-
-
 	   <td height="50">WCC Coordinator </td>
-
-
 	   <td height="50">Kempulfersj@waterlooschools.org </td>
-
-
 	   </tr>
-
-
-       <tr>
-
-
+        <tr>
 	<br><br>
-
-
 	<th colspan="3">Teachers at the WCC </th>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Bass, Samuel </td>
-
-
 	   <td height="50">High School English Instructor </td>
-
-
 	   <td height="50">Basss@waterlooschools.org </td>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Beaufore, Heather </td>
-
-
 	   <td height="50">Nursing/Health Career Instructor </td>
-
-
 	   <td height="50">Beauforeh@waterlooschools.org </td>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Dunkerton, Matthew  </td>
-
-
 	   <td height="50">Digital Interactive Media  </td>
-
-
 	   <td height="50">Dunkertonm@waterlooschools.org </td>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Flint, Aaisha  </td>
-
-
 	   <td height="50">Nursing/Health Career Instructor </td>
-
-
 	   <td height="50">Flinta@waterlooschools.org </td>
-
-
 	</tr>
-
-
-   <tr>
-
-
+    <tr>
 	   <td height="50">Frost, Betty (Jane) </td>
-
-
 	   <td height="50">Early Childhood Education Instructor </td>
-
-
 	   <td height="50">Frostb@waterlooschools.org </td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td width="25%" height="50">Kern, Todd </td>
-
-
-       <td width="25%" height="50">Digital Graphics Instructor  </td>
-
-
-       <td width="25%" height="50">Kernt@waterlooschools.org </td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Kuhlers, Kyle</td>
-
-
-       <td height="50">Information Technology (Web and
-
-
+    </tr>
+    <tr>
+        <td width="25%" height="50">Kern, Todd </td>
+        <td width="25%" height="50">Digital Graphics Instructor  </td>
+        <td width="25%" height="50">Kernt@waterlooschools.org </td>
+    </tr>
+    <tr>
+        <td height="50">Kuhlers, Kyle</td>
+        <td height="50">Information Technology (Web and
 Mobile) Instructor </td>
-
-
-       <td height="50">Kuhlersk@waterlooschools.org</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Laures, Tom</td>
-
-
-       <td height="50">Applied Mathematics Instructor</td>
-
-
-       <td height="50">Laurest@waterlooschools.org</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Lidtke, Wayne</td>
-
-
-       <td height="50">Sustainable Construction and Design Instructor</td>
-
-
-       <td height="50">Lidkew@waterlooschools.org</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Mingo, Aunderia (Doreen)</td>
-
-
-       <td height="50">Nursing/Health Career Instructor </td>
-
-
-       <td height="50">Doreen.mingo@allencollege.edu</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Olofson, Samra</td>
-
-
-       <td height="50">Information Technology (Networking) Instructor  </td>
-
-
-       <td height="50">Olofsons@waterlooschools.orgo</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Plagge, Robert</td>
-
-
-       <td height="50">Advanced Manufacturing Instructor</td>
-
-
-       <td height="50">Plagger@waterlooschools.org</td>
-
-
-   </tr>
-
-
-   <tr>
-
-
-       <td height="50">Schares, Jill</td>
-
-
-       <td height="50">Marketing Management Instructor</td>
-
-
-       <td height="50">Scharesj2@waterlooschools.org</td>
-
-
-   </tr>
-
-
+        <td height="50">Kuhlersk@waterlooschools.org</td>
+    </tr>
+    <tr>
+        <td height="50">Laures, Tom</td>
+        <td height="50">Applied Mathematics Instructor</td>
+        <td height="50">Laurest@waterlooschools.org</td>
+    </tr>
+    <tr>
+        <td height="50">Lidtke, Wayne</td>
+        <td height="50">Sustainable Construction and Design Instructor</td>
+        <td height="50">Lidkew@waterlooschools.org</td>
+    </tr>
+    <tr>
+        <td height="50">Mingo, Aunderia (Doreen)</td>
+        <td height="50">Nursing/Health Career Instructor </td>
+        <td height="50">Doreen.mingo@allencollege.edu</td>
+    </tr>
+    <tr>
+        <td height="50">Olofson, Samra</td>
+        <td height="50">Information Technology (Networking) Instructor  </td>
+        <td height="50">Olofsons@waterlooschools.orgo</td>
+    </tr>
+    <tr>
+        <td height="50">Plagge, Robert</td>
+        <td height="50">Advanced Manufacturing Instructor</td>
+        <td height="50">Plagger@waterlooschools.org</td>
+    </tr>
+    <tr>
+        <td height="50">Schares, Jill</td>
+        <td height="50">Marketing Management Instructor</td>
+        <td height="50">Scharesj2@waterlooschools.org</td>
+    </tr>
 	</table>
-
-
 	<table style="margin:0px auto;
-
-
 	width: 500px">
-
-
 	
-
-
 	
-
-
 	
-
-
 </nav>
-
-
 </body>
-
-
 </html>
-
